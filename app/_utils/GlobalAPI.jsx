@@ -17,7 +17,7 @@ const getDoctorById=(id)=>axiosClient.get('/doctors/'+id+"?populate=*")
     const deleteBooking=(id)=>axiosClient.delete('/appointments/'+id)
  
     const sendEmail=(data)=>axios.post('/api/sendEmail',data);
-    export default{
+    export default {
     getCategory,
     getDoctorList,
     getDoctorByCategory,
