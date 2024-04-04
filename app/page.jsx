@@ -3,7 +3,7 @@ import { Hero } from "./_components/Hero";
 import { CategorySearch } from "./_components/CategorySearch";
 import { useEffect, useState } from "react";
 // import GlobalAPI from "./_utils/GlobalAPI";
-import GlobalAPI from "./_utils/GlobalApi";
+import GlobalAPI from "./_utils/GlobalAPI";
 import DoctorList from "./_components/DoctorList";
 
 export default function Home() {
