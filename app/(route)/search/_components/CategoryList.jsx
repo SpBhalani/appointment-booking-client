@@ -1,5 +1,5 @@
 "use client"
-import GlobalApi from '@/app/_utils/GlobalApi';
+import GlobalApi from '../../../_utils/GlobalAPI';
 import React, { useEffect, useState } from 'react'
 import {
     Command,

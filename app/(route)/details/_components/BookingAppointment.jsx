@@ -14,7 +14,7 @@ import { Calendar } from "@/components/ui/calendar"
 import { CalendarDays, Clock } from 'lucide-react'
 import { Textarea } from '@/components/ui/textarea'
 import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
-import GlobalApi from '@/app/_utils/GlobalApi'
+import GlobalApi from '../../../_utils/GlobalAPI'
 import { toast } from 'sonner'
 
 function BookAppointment({doctor}) {
